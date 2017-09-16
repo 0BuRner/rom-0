@@ -15,10 +15,10 @@ http://device.ip/rom-0
 - WORD     nr of objects
 - DWORD    blockLength
 - foreach object:
--   CHAR[14] objectname
--   DWORD    uncompressed size
--   DWORD    compressed size
--   DWORD    offset to data from start of block
+   - CHAR[14] objectname
+   - DWORD    uncompressed size
+   - DWORD    compressed size
+   - DWORD    offset to data from start of block
 
 ##### Compression algorithm
 Lempel-Ziv-Stac (LZS)
@@ -32,11 +32,11 @@ Contains "boot", "spt.dat" and "autoexec.net"
 - WORD	Minor version
 - DWORD	Unclear (Chunks?)
 - until EOF:
--   WORD		  org_size
--   WORD		  raw_size
--   BYTE[raw_size]  Compressed data
+   - WORD		  org_size
+   - WORD		  raw_size
+   - BYTE[raw_size]  Compressed data
 	
 
-http://www.hakim.ws/huawei/rom-0/kender.html
-http://www.ixo.de/info/zyxel_uclinux/
-http://blog.anidear.com/2014/01/hunting-for-zyxel-rom-0-file-decrypter.html
+- http://www.hakim.ws/huawei/rom-0/kender.html
+- http://www.ixo.de/info/zyxel_uclinux/
+- http://blog.anidear.com/2014/01/hunting-for-zyxel-rom-0-file-decrypter.html
