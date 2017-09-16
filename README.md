@@ -36,7 +36,8 @@ Contains "boot", "spt.dat" and "autoexec.net"
    - WORD		  raw_size
    - BYTE[raw_size]  Compressed data
 	
-
+## Links
+- [http://everlost.nl/kender/zyxel/source.zip](https://web.archive.org/web/20130113175043/http://everlost.nl/kender/zyxel/source.zip) working link from archive.org !
 - http://www.hakim.ws/huawei/rom-0/kender.html
 - http://www.ixo.de/info/zyxel_uclinux/
 - http://blog.anidear.com/2014/01/hunting-for-zyxel-rom-0-file-decrypter.html
